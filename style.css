@@ -9,7 +9,7 @@ body{
     font-family: "Mulish", serif;
     font-weight: 400;
     font-style: normal;
-    min-width: 411px;
+    min-width: 767px;
     
 } 
 
@@ -69,25 +69,32 @@ body{
     margin-bottom: 10vh;
 }
 
-.sketchfab-embed-wrapper{
-    width: 100%;
-    height: 100%;
-    
-}
-
 .apartado img{
     width: 100%;
-    height: auto;
+    aspect-ratio: 16 / 9;
     border-radius: 20px;
 }
 
 .apartado iframe{
     width: 100%;
-    height: auto;
-    
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.apartado {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+.apartado iframe {
+    width: 100%;
+    height: 100%;
+    background-color: #D4A004
 }
 
 .fotopre img{
+    width: 100%;
+    height: auto;
     border-radius: 400px;
 }
 #preswi{
@@ -287,7 +294,7 @@ section{
     height: auto;
     overflow: hidden;
     position: relative;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .slider-wrapper {
@@ -346,7 +353,7 @@ section{
   }
 
 
-  @media(max-width: 411px){
+  @media(max-width: 767px){
 
     .txt_size{
         font-size: 20px;
